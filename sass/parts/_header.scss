@@ -173,12 +173,20 @@ header{
 			margin-right: 15px;
 			opacity: 0.5;
 			@include square(28px);
+			@include border-radius(5px);;
 			@include transition(0.3s);
 			&:hover{
 				opacity: 1;
 			}
 			&.facebook{
 				background: image-url('facebook.png') center no-repeat #3B5998;
+				border: 1px solid #3B5998;
+				&:hover{
+					border: 1px solid darken(#3B5998, 10%);
+				}
+			}
+			&.linkedin{
+				background: image-url('socialis_linkedin.png') center no-repeat #3B5998;
 				border: 1px solid #3B5998;
 				&:hover{
 					border: 1px solid darken(#3B5998, 10%);
@@ -213,7 +221,7 @@ header{
 				}
 			}
 			&.rss{
-				background: image-url('rss.png') center no-repeat #EF7522;
+				background: image-url('socialis_rss.png') center no-repeat #EF7522;
 				border: 1px solid #EF7522;
 				&:hover{
 					border: 1px solid darken(#EF7522, 10%);
