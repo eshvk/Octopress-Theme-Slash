@@ -1,4 +1,7 @@
-<h1 class="left"><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+<div class="left">
+        <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+        <h2>{{ site.subtitle }}</h2>
+</div>
 <nav class="menu left">{% include navigation.html %}</nav>
 <div class="right">
 	<form class="search right" action="{{ site.simple_search }}" method="get">
@@ -10,8 +13,7 @@
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
         {% endif %}
 		{% if site.linkedin_user %}
-		<a class="linkedin"
-                href="http://www.linkedin.com/in/{{site.linkedin_user}}" title="Linkedin">Linkedin</a>
+		<a class="linkedin" href="http://www.linkedin.com/in/{{site.linkedin_user}}" title="Linkedin">Linkedin</a>
 		{% endif %}
 		{% if site.googleplus_user %}
 		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}" title="Google+">Google+</a>
