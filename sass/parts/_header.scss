@@ -27,6 +27,14 @@ header{
 			float: none !important;
 		}
 	}
+    h2{
+            font-weight: 300;
+            font-size: 17px;
+            color: $gray02;
+			@media screen and (max-width: 600px){
+				display: none;
+			}
+    }
 	nav{
 		margin-left: 30px;
 		@media screen and (max-width: 1040px){
