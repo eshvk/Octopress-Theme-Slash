@@ -6,9 +6,8 @@ This is a high contrast theme based on
 ##Install
 
 Type the code below in terminal.
-
 	$ cd octopress
-	$ git clone git://github.com/eshwaran/blog-theme .themes/esh
+	$ git clone git://github.com/eshwaran/git@github.com:eshwaran/Octopress-Theme-Slash.git .themes/esh
 	$ rake install['esh']
 	$ rake generate
 
