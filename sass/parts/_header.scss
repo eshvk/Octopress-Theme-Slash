@@ -14,7 +14,7 @@ header{
 		}
 	}
 	a{
-		color: $gray01;
+		color: $black01;
 		@include transition(0.3s);
 		&:hover{
 			color: $main;
