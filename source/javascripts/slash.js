@@ -8,6 +8,8 @@
     tld = tld.replace(new RegExp(/^http\:\/\/|^https\:\/\/|^ftp\:\/\//i),"");
     // Strip away www
     tld = tld.replace(new RegExp(/^www\./i),"");
+    // Strip away forward slash if any
+    tld = tld.replace(new RegExp(/\/(.*)/),"");
     var parts = tld.split('.');
     var type = parts.pop();
     var domain = parts.pop();
