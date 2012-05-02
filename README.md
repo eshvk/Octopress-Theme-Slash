@@ -16,6 +16,8 @@ Have problems when installing with zsh? Try `rake install\['esh'\]` instead.
 
 ##Features
 
-- Go to the main Slash [site](http://zespia.tw/Octopress-Theme-Slash/)
-- Other modifications include change of background, color changes, adding
-  linkedin to social. 
+- Go to the main Slash [site](http://zespia.tw/Octopress-Theme-Slash/) 
+- Changed background.
+- Color changes
+- Added Linkedin to social.
+- Added mathjax for Latex.
